@@ -1,0 +1,17 @@
+# src/Test/MusicBundle/Resources/config/doctrine/Band.orm.yml
+Test\MusicBundle\Entity\Product:
+    type: entity
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 20
+        date:
+            type: date
+        genre:
+            type: smallint
+        song:
+            type: integer

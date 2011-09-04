@@ -1,0 +1,24 @@
+TestMusicBundle_Init:
+    pattern:  /
+    defaults: { _controller: TestMusicBundle:Default:index }
+
+TestMusicBundle_Search:
+    pattern:  /search
+    defaults: { _controller: TestMusicBundle:Default:search }
+
+TestMusicBundle_Search_Detail:
+    pattern:  /search/{id}
+    defaults: { _controller: TestMusicBundle:Default:detail }
+
+TestMusicBundle_Register_Init:
+    pattern:  /register/init
+    defaults: { _controller: TestMusicBundle:Default:registerInit }
+
+TestMusicBundle_Register_Confirm:
+    pattern:  /register/conf
+    defaults: { _controller: TestMusicBundle:Default:registerConfirm }
+
+TestMusicBundle_Register_Execute:
+    pattern:  /register/exec
+    defaults: { _controller: TestMusicBundle:Default:registerDo }
+    

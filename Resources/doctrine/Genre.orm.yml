@@ -1,0 +1,11 @@
+# src/Test/MusicBundle/Resources/config/doctrine/Genre.orm.yml
+Test\MusicBundle\Entity\Genre:
+    type: entity
+    id:
+        id:
+            type: smallint
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 20
